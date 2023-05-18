@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-html {
-  /* 62.5% of 16px browser font size is 10px */
-  font-size: 62.5%;
+body{
+  width: 375px;
 }
 
-
+#main-logo{
+  
+}
 

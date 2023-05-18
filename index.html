@@ -1,14 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
-    />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <title>OldaGram</title>
   </head>
 
   <body>
-    <img src="images/logo.png" />
+    <header>
+      <img src="images/logo.png" id="main-logo" alt="Oldagram logo" />
+      <img src="images/jtl-pic.png" id="account-pic" alt="account user icon" />
+    </header>
+
+    <main>
+      <img
+        id="user-mini-photo"
+        src="images/avatar-vangogh.jpg"
+        alt="a younger Vincent"
+      />
+      <h2 id="user-full-name">Vincent van Gogh</h2>
+      <p id="location-text">Zudert, Netherlands</p>
+      <img id="post-image" src="images/post-vangogh.jpg" alt="van Gogh's self-portrait" />
+      <img id="heart-icon" src="images/icon-heart.png" alt="a heart icon" />
+      <img
+        id="comment-icon"
+        src="images/icon-comment.png"
+        alt="a chat bubble icon"
+      />
+      <img
+        id="share-icon"
+        src="images/icon-share.png"
+        alt="a share icon, in the shape of an arrowhead"
+      />
+      <h3 id="likes-count">21,492</h3>
+      <caption id="username-caption">vincey1853 <span id="username-comment">just took a few mushrooms lol</span></caption>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>
