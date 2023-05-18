@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
     <title>OldaGram</title>
   </head>
@@ -10,20 +16,26 @@
   <body>
     <header>
       <img src="images/logo.png" id="main-logo" alt="Oldagram logo" />
-      <img src="images/jtl-pic.png" id="account-pic" alt="account user icon" />
+      <img
+        src="images/jtl-pic.png"
+        id="account-pic"
+        class="mini-img"
+        alt="account user icon"
+      />
     </header>
 
     <main id="post-container">
       <!-- post header -->
       <div class="user-info">
         <img
-          id="user-mini-img"
+          id="user-icon"
+          class="mini-img"
           src="images/avatar-vangogh.jpg"
           alt="a younger Vincent"
         />
         <div class="user-details">
-          <h2 id="user-full-name">Vincent van Gogh</h2>
-          <p id="location-text">Zudert, Netherlands</p>
+          <h3 id="user-full-name" class="bold-text">Vincent van Gogh</h3>
+          <p id="location-text" class="light-text">Zudert, Netherlands</p>
         </div>
       </div>
 
@@ -49,10 +61,10 @@
           src="images/icon-share.png"
           alt="a share icon, in the shape of an arrowhead"
         />
-        <h3 id="likes-count">21,492 likes</h3>
+        <h3 id="likes-count" class="bold-text">21,492 likes</h3>
         <caption id="username-caption">
-          vincey1853
-          <span id="username-comment">just took a few mushrooms lol</span>
+          <span class="bold-text">vincey1853 </span>
+          just took a few mushrooms lol
         </caption>
       </div>
     </main>
