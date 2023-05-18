@@ -13,28 +13,47 @@
       <img src="images/jtl-pic.png" id="account-pic" alt="account user icon" />
     </header>
 
-    <main>
-      <img
-        id="user-mini-photo"
-        src="images/avatar-vangogh.jpg"
-        alt="a younger Vincent"
-      />
-      <h2 id="user-full-name">Vincent van Gogh</h2>
-      <p id="location-text">Zudert, Netherlands</p>
-      <img id="post-image" src="images/post-vangogh.jpg" alt="van Gogh's self-portrait" />
-      <img id="heart-icon" src="images/icon-heart.png" alt="a heart icon" />
-      <img
-        id="comment-icon"
-        src="images/icon-comment.png"
-        alt="a chat bubble icon"
-      />
-      <img
-        id="share-icon"
-        src="images/icon-share.png"
-        alt="a share icon, in the shape of an arrowhead"
-      />
-      <h3 id="likes-count">21,492</h3>
-      <caption id="username-caption">vincey1853 <span id="username-comment">just took a few mushrooms lol</span></caption>
+    <main id="post-container">
+      <!-- post header -->
+      <div class="user-info">
+        <img
+          id="user-mini-photo"
+          src="images/avatar-vangogh.jpg"
+          alt="a younger Vincent"
+        />
+        <h2 id="user-full-name">Vincent van Gogh</h2>
+        <p id="location-text">Zudert, Netherlands</p>
+      </div>
+
+      <!-- post image -->
+      <figure>
+        <img
+          id="post-image"
+          src="images/post-vangogh.jpg"
+          alt="van Gogh's self-portrait"
+        />
+      </figure>
+
+      <!-- post body -->
+      <div class="post-body">
+        <img id="heart-icon" src="images/icon-heart.png" alt="a heart icon" />
+        <img
+          id="comment-icon"
+          src="images/icon-comment.png"
+          alt="a chat bubble icon"
+        />
+        <img
+          id="share-icon"
+          src="images/icon-share.png"
+          alt="a share icon, in the shape of an arrowhead"
+        />
+        <h3 id="likes-count">21,492 likes</h3>
+        <caption id="username-caption">
+          vincey1853
+          <span id="username-comment">just took a few mushrooms lol</span>
+        </caption>
+      </div>
+      
     </main>
     <script src="index.js"></script>
   </body>
