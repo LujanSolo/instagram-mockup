@@ -6,7 +6,7 @@
 
 body {
   width: 375px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0 auto;
 }
 
@@ -32,16 +32,29 @@ header {
   width: 348px;
 }
 
-.bold-text{
+.bold-text {
   font-size: 13px;
   font-weight: 700;
 }
 
-.light-text{
+.light-text {
   font-size: 12px;
   font-weight: 400;
 }
 
 #post-img {
   width: 100%;
+}
+
+.icons-box {
+  width: 105px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.social-icons {
+  height: 23px;
+  padding-right: 20px;
+  line-height: 23px;
 }
