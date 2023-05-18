@@ -10,11 +10,22 @@ body {
   margin: 0 auto;
 }
 
+.bold-text {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.light-text {
+  font-size: 12px;
+  font-weight: 400;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 16px 0 10px;
+  margin-bottom: 5px;
 }
 
 #main-logo {
@@ -30,31 +41,36 @@ header {
 .user-info {
   display: flex;
   width: 348px;
+  margin: 10px auto;
 }
 
-.bold-text {
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.light-text {
-  font-size: 12px;
-  font-weight: 400;
+.user-details{
+  padding-left: 7px;
 }
 
 #post-img {
   width: 100%;
 }
 
-.icons-box {
-  width: 105px;
-  display: flex;
-  align-items: center;
-  
+.mb-12px{
+  margin-bottom: 12px;
 }
 
 .social-icons {
-  height: 23px;
-  padding-right: 20px;
-  line-height: 23px;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.social-icons:hover{
+  background-color: pink;
+}
+
+.post-body{
+  width: 348px;
+  margin: 10px;
+}
+
+#post-container{
+  padding: 5px 0;
+  border-top: 1px solid #c6c6c6;
 }
