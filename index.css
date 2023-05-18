@@ -4,11 +4,40 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   width: 375px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-#main-logo{
-  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 0 10px;
+  background: pink;
 }
 
+#main-logo {
+  width: 130px;
+}
+
+#account-pic {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+.user-info {
+  display: flex;
+  width: 348px;
+}
+
+#user-mini-img {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+}
+
+#post-img {
+  width: 100%;
+}
